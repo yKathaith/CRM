@@ -36,9 +36,6 @@ export default function CreateCampaignPage() {
         value={campaignName}
         onChange={(e) => setCampaignName(e.target.value)}
       />
-
-      <RuleBuilder onRulesChange={setRules} />
-
       <div className="space-x-2 mt-4">
         <button
           className="bg-green-600 text-white px-4 py-2 rounded"
