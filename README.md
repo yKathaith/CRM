@@ -2,8 +2,6 @@
 
 A modern CRM platform built with **Next.js**, **Tailwind CSS**, **Google OAuth**, and optional **AI features**. Designed to let marketers segment audiences, create campaigns, deliver messages, and gain intelligent insights.
 
----
-
 ## Features
 
 ###  1. **Authentication**
@@ -46,18 +44,3 @@ A modern CRM platform built with **Next.js**, **Tailwind CSS**, **Google OAuth**
 - **Backend APIs**: REST with optional Pub/Sub queue
 - **Database**: PostgreSQL / MongoDB (depending on config)
 - **AI API**: OpenAI / Replicate (customizable)
-
----
-
-##  Getting Started (Local Development)
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/yuvikaKathaith/CRM.git
-cd CRM/client
-
-# 2. Install dependencies
-npm install
-
-# 3. Setup environment variables
-touch .env.local
